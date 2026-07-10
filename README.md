@@ -62,10 +62,10 @@ Current stack:
 - Google SecOps 
 - Offensive Security  
 
-## 📂 Workspace Structure 
+## 📂 Workspace Structure
 
+```text
 Project Sentinel
-│
 ├── Documentation
 ├── Knowledge Base
 ├── Labs
