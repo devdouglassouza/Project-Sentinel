@@ -102,7 +102,6 @@ Kali Linux será a maquina atacante enquanto a Windows será a vitima.
 ## Network Topology 
 
  
-
 | Component | Network | Purpose | 
 
 |-----------|---------|----------| 
@@ -114,47 +113,22 @@ Kali Linux será a maquina atacante enquanto a Windows será a vitima.
 | Windows | Internal | Victim | 
 
  
-
 --- 
 
  
-## Resource Model 
+## Resource Model
 
- 
-Component 
+The initial laboratory architecture is designed around the current 16 GB host capacity.
 
-RAM 
+| Component     | Allocated RAM | Role                    |
+| ------------- | ------------: | ----------------------- |
+| Fedora Host   |          5 GB | Engineering workstation |
+| Kali Linux    |          3 GB | Attacker                |
+| Ubuntu Server |          4 GB | Services VM             |
+| Windows       |          4 GB | Victim endpoint         |
 
-Notes 
-
- 
-
-Fedora Host 
-
-5 GB 
-
-Engineering workstation 
-
- 
-Kali Linux 
-
-3 GB 
-
-Attacker 
- 
-
-Ubuntu Server 
-
-4 GB 
-
-Services VM 
-
- 
-Windows 
-
-4 GB 
-
-Victim endpoint 
+> Total allocated to virtual machines: **11 GB**.
+> The remaining memory is reserved for the Fedora host and background services. 
 
 --- 
 
